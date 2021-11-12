@@ -3,14 +3,14 @@ import { getNetwork } from '@ethersproject/networks'
 import { getDefaultProvider } from '@ethersproject/providers'
 import { TokenAmount } from './entities/fractions/tokenAmount'
 import { Pair } from './entities/pair'
-import IPancakePair from '@wagyu-swap-libs/wagyu-swap-core/artifacts/IPancakePair.json'
+import IPancakePair from '@astroswap-libs/astroswap-core/artifacts/IPancakePair.json'
 import invariant from 'tiny-invariant'
 import ERC20 from './abis/ERC20.json'
 import { ChainId } from './constants'
 import { Token } from './entities/token'
 
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
-  [ChainId.MAINNET]: {}
+  [ChainId.MAINNET]: {},
 }
 
 /**
@@ -45,8 +45,8 @@ export abstract class Fetcher {
               ...TOKEN_DECIMALS_CACHE,
               [chainId]: {
                 ...TOKEN_DECIMALS_CACHE?.[chainId],
-                [address]: decimals
-              }
+                [address]: decimals,
+              },
             }
             return decimals
           })

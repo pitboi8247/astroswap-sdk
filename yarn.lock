@@ -83,6 +83,14 @@
   dependencies:
     tslib "~2.0.1"
 
+"@astroswap-libs/astroswap-core@git://github.com/astroswapapp/astroswap-core.git":
+  version "0.1.0"
+  resolved "git://github.com/astroswapapp/astroswap-core.git#5118cffbbcba520e2d7736fd21ca15656a90304b"
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.5.5":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -3368,14 +3376,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@wagyu-swap-libs/wagyu-swap-core@git://github.com/wagyuswapapp/wagyu-swap-core.git":
-  version "0.1.0"
-  resolved "git://github.com/wagyuswapapp/wagyu-swap-core.git#f819955ce5d0d8a34d1908ca4b59d14466c35ce2"
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
 
 "@wry/context@^0.6.0":
   version "0.6.0"

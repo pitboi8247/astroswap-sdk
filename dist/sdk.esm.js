@@ -10,7 +10,7 @@ import { keccak256, pack } from '@ethersproject/solidity';
 import { Contract } from '@ethersproject/contracts';
 import { getNetwork } from '@ethersproject/networks';
 import { getDefaultProvider } from '@ethersproject/providers';
-import IPancakePair from '@wagyu-swap-libs/wagyu-swap-core/artifacts/IPancakePair.json';
+import IPancakePair from '@astroswap-libs/astroswap-core/artifacts/IPancakePair.json';
 
 var addresses = {
 	"106": {

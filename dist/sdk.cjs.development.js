@@ -15,7 +15,7 @@ var solidity = require('@ethersproject/solidity');
 var contracts = require('@ethersproject/contracts');
 var networks = require('@ethersproject/networks');
 var providers = require('@ethersproject/providers');
-var IPancakePair = _interopDefault(require('@wagyu-swap-libs/wagyu-swap-core/artifacts/IPancakePair.json'));
+var IPancakePair = _interopDefault(require('@astroswap-libs/astroswap-core/artifacts/IPancakePair.json'));
 
 var addresses = {
 	"106": {
