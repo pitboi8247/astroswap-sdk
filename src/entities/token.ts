@@ -71,16 +71,16 @@ export const WETH = {
     ChainId.MAINNET,
     addresses[ChainId.MAINNET].WVLX,
     18,
-    'WADA',
-    'Wrapped ADA',
+    'WVLX',
+    'Wrapped VLX',
     'https://www.velas.com/'
   ),
   [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
     addresses[ChainId.TESTNET].WVLX,
     18,
-    'WADA',
-    'Wrapped ADA',
+    'WVLX',
+    'Wrapped VLX',
     'https://www.cardano.org/'
   )
 }

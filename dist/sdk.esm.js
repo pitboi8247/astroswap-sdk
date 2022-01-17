@@ -407,7 +407,7 @@ function Currency(decimals, symbol, name) {
  * The only instance of the base class `Currency`.
  */
 
-Currency.ETHER = /*#__PURE__*/new Currency(18, 'ADA', 'Cardano');
+Currency.ETHER = /*#__PURE__*/new Currency(18, 'VLX', 'Velas');
 var ETHER = Currency.ETHER;
 
 var _WETH;
@@ -474,7 +474,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, addresses[ChainId.MAINNET].WVLX, 18, 'WADA', 'Wrapped ADA', 'https://www.velas.com/'), _WETH[ChainId.TESTNET] = /*#__PURE__*/new Token(ChainId.TESTNET, addresses[ChainId.TESTNET].WVLX, 18, 'WADA', 'Wrapped ADA', 'https://www.cardano.org/'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, addresses[ChainId.MAINNET].WVLX, 18, 'WVLX', 'Wrapped VLX', 'https://www.velas.com/'), _WETH[ChainId.TESTNET] = /*#__PURE__*/new Token(ChainId.TESTNET, addresses[ChainId.TESTNET].WVLX, 18, 'WVLX', 'Wrapped VLX', 'https://www.cardano.org/'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
